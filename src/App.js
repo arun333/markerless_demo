@@ -1,11 +1,10 @@
-import React from 'react';
-import ARScene from './components/ARScene';
-import './App.css'; // make sure you import the CSS
+import React from "react";
+import ARScene from "./components/ARScene";
 
 function App() {
   return (
     <div>
-      <h2>Markerless AR Demo</h2>
+      <h1>Markerless AR Demo</h1>
       <ARScene />
     </div>
   );
